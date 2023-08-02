@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,500;1,500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-rubik: Rubik;
+  --font-krub: Krub;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-16xl: 35px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray: #1c1f35;
+  --color-slategray: #666c89;
+  --color-gainsboro: rgba(232, 232, 232, 0.5);
+  --color-midnightblue: #091242;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-xs: 12px;
+  --gap-5xl: 24px;
+  --gap-13xl: 32px;
+  --gap-115xl: 134px;
+  --gap-3xs: 10px;
+  --gap-11xs: 2px;
+
+  /* Paddings */
+  --padding-10xs: 3px;
+  --padding-4xs: 9px;
+  --padding-43xl: 62px;
+  --padding-53xl: 72px;
+}

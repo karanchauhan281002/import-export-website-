@@ -1,0 +1,49 @@
+.pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(94.06deg, #ffb629, #ffda56 50.72%, #ffd7a6);
+  width: 4px;
+  height: 23px;
+  
+}
+
+.why-choose {
+  position: relative;
+  background-color: white;
+}
+.text4 {
+  position: absolute;
+  top: 0;
+  left: 4px;
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-10xs) var(--padding-4xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.sub-text {
+  position: relative;
+  width: 102px;
+  height: 23px;
+}
+.we-create-opportunity {
+  position: relative;
+  font-size: var(--font-size-16xl);
+  font-weight: 600;
+  display: inline-block;
+  width: 438px;
+}
+.title1 {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray);
+  font-family: var(--font-rubik);
+}

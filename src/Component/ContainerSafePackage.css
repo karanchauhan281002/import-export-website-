@@ -1,0 +1,37 @@
+.icon3 {
+  width: 63px;
+  height: 63px;
+}
+.icon3,
+.safe-package {
+  position: relative;
+}
+.div2,
+.div3,
+.div4,
+.div5 {
+  width: 201px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.div2,
+.div4,
+.div5 {
+  width: 216px;
+}
+.div2,
+.div5 {
+  width: 223px;
+}
+.div2 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray);
+  font-family: var(--font-rubik);
+}

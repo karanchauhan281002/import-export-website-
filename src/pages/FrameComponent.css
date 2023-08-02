@@ -1,0 +1,116 @@
+.background-icon,
+.image-icon {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  width: 300px;
+  height: 300px;
+}
+.image-icon {
+  top: 115.52px;
+  left: 22.51px;
+  width: 500.11px;
+  height: 400.24px;
+  object-fit: cover;
+}
+.background-icon1 {
+  position: absolute;
+  top: 0;
+  left: 168.22px;
+  width: 120.78px;
+  height: 150.08px;
+}
+.icon {
+  position: relative;
+  width: 50.49px;
+  height: 50px;
+}
+.moving-your-products {
+  position: relative;
+  display: inline-block;
+  width: 150.94px;
+  height: 65px;
+  flex-shrink: 0;
+  font-size: 16px;
+}
+.text {
+  position: absolute;
+  top: 24.41px;
+  left: 34.27px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 22px;
+}
+.feature-tag {
+  position: absolute;
+  top: 498.68px;
+  left: 118px;
+  background: linear-gradient(94.06deg, #ffb629, #ffda56 50.72%, #ffd7a6);
+  width: 250px;
+  height: 95.08px;
+}
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-midnightblue);
+  width: 600px;
+  height: 620px;
+}
+.leverage-agile-frameworks {
+  position: relative;
+  line-height: 151.52%;
+  font-weight: 500;
+  display: inline-block;
+  width: 486px;
+}
+.content,
+.features,
+.text1 {
+  width: 494px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18px;
+}
+.content,
+.features {
+  right: 30px;
+  width: 553px;
+  flex-direction: row;
+  gap: 72px;
+}
+.content {
+  position: absolute;
+  top: 98.32px;
+  left: 762.56px;
+  width: 416.75px;
+  height: 243.61px;
+  flex-direction: column;
+  gap: 61px;
+  font-size: var(--font-size-base);
+  color: var(--color-slategray);
+  font-family: var(--font-krub);
+}
+.why-choose-us {
+  position: absolute;
+  top: 52px;
+  left: 51px;
+  width: 500px;
+  height: 430px;
+  
+}
+.why-choose-us-parent {
+  position: relative;
+  background-color: var(--color-white);
+  width: 1600px;
+  height: 805px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 25px;
+  color: var(--color-gray);
+  font-family: var(--font-rubik);
+}

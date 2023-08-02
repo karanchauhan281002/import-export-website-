@@ -1,0 +1,221 @@
+.contact__section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #091242;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.contact__header__desc__items {
+    display: flex;
+    flex-direction: column;
+    /* border: 10px solid crimson; */
+}
+
+.contact__small__header {
+    width: 90px;
+    height: 25px;
+}
+
+.contact__small__header__1 {
+    /* background-color: rgb(228, 226, 224); */
+    background: rgba(232, 232, 232, 0.1);
+    border-left: 5px solid #FFBE34;
+    padding-left: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Rubik", sans-serif;
+}
+
+.contact__big__header {
+    width: 400px;
+}
+
+.contact__big__header__1 {
+    padding: 0px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Rubik", sans-serif;
+}
+
+.contact__desc {
+    width: 317px;
+}
+
+.contact__desc__1 {
+    font-size: 1.1rem;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Rubik", sans-serif;
+}
+
+.contact__email__call__time {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Rubik", sans-serif;
+}
+
+.contact__email {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 0;
+}
+
+.contact__call {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 10px 0;
+}
+
+.contact__time {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 10px 0;
+}
+
+.contact__email__image__1 {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+
+
+}
+
+.contact__call__image__1 {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+
+
+}
+
+.contact__time__image__1 {
+    padding-left: 10px;
+    display: flex;
+    font-size: 18px;
+    padding-top: 12px;
+    flex-direction: column;
+
+}
+
+.contact__email__image {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    padding-top: 2px;
+}
+
+.contact__call__image {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+}
+
+.contact__time__image {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+}
+
+/* Conatct form  */
+.contact__with__us__form {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    /* padding: 20px; */
+    /* border: 10px solid orange; */
+}
+
+.contact__name__email, .contact__phone__city {
+    padding: 10px;
+}
+
+.input__name, .input__email, .input__phone, .input__city {
+    height: 60px;
+    width: 365px;
+    padding-left: 10px;
+    margin: 10px;
+    border: 1px solid #4E5683;
+    background: #091242;
+    color: white;
+}
+
+
+
+.input__name::placeholder, .input__email::placeholder, .input__phone::placeholder, .input__city::placeholder {
+    color: rgb(255, 255, 255);
+    size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Rubik", sans-serif;
+}
+
+
+.contact__text__area__1 {
+
+    width: 95%;
+    margin-left: 17px;
+    height: 155px;
+    background: #091242;
+    border: 1px solid #4E5683;
+}
+
+.contact__text__area__1::placeholder {
+    color: rgb(255, 255, 255);
+    size: 1.2rem;
+    padding: 23px 20px;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Rubik", sans-serif;
+}
+
+.contact__submit {
+    display: flex;
+    align-items: start;
+    padding: 8px 16px;
+}
+
+.submit {
+    width: 194px;
+    height: 60px;
+    font-size: 1.2rem;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    font-family: 'Krub', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.contact__images {
+    margin: 40px 0 23px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__images__1, .contact__images__2, .contact__images__3, .contact__images__4 {
+    width: 299px;
+    height: 234px;
+    object-fit: contain;
+
+}
